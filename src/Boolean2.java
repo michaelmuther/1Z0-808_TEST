@@ -6,7 +6,7 @@ public class Boolean2 {
         Boolean a = new Boolean();
         Boolean b = new Boolean();
 //        Boolean c = new Boolean();
-        Boolean c = java.lang.Boolean.valueOf("TrUe");
+//        Boolean c = java.lang.Boolean.valueOf("TrUe");
 
     }
 }
