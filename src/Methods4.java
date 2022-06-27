@@ -1,19 +1,19 @@
 public class Methods4 {
 }
-class Triangle{
-    public int base;
-    public int height;
-//    private final double ANGLE; // if it is declared final, it must be explicitly initialized.
-    private double ANGLE;
-
-    public  void setAngle(double a){  ANGLE = a;  }
-    // if the variable is final, it cannot be set after initialization.
-
-    public static void main(String[] args) {
-        Triangle t = new Triangle();
-        t.setAngle(90);
-    }
-}
+//class Triangle{
+//    public int base;
+//    public int height;
+////    private final double ANGLE; // if it is declared final, it must be explicitly initialized.
+//    private double ANGLE;
+//
+//    public  void setAngle(double a){  ANGLE = a;  }
+//    // if the variable is final, it cannot be set after initialization.
+//
+//    public static void main(String[] args) {
+//        Triangle t = new Triangle();
+//        t.setAngle(90);
+//    }
+//}
 /*
 the value of ANGLE will not be set to 90 by the setAngle method. // FALSE
 An exception will be thrown at run time. // FALSE
