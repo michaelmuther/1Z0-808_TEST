@@ -1,4 +1,4 @@
-public class Boolean {
+public class Boolean1 {
 }
 /*
 Identify the valid members of Boolean class.
