@@ -1,28 +1,29 @@
+public class DataTypes9 {
 
+//    Boolean.parseBoolean("true") == true;
+//    Boolean.parseBoolean("TrUe") == new Boolean(null);
+//    new Boolean("TrUe") == new Boolean(true);
+//    new Boolean() == false;
+//    new Boolean("true") == Boolean.TRUE;
+//    new Boolean("no") == false;
 
-public class Boolean3 {
-
-    public static void main(String[] args) {
-        boolean test;
-        test = Boolean.parseBoolean(" true ");
-        test = Boolean.parseBoolean("true");
-        test = Boolean.valueOf(true);
-        test = Boolean.valueOf("trUE");
-        test = Boolean.TRUE;
-    }
 }
 /*
-Which of the following options will yield a Boolean wrapper object containing the value true?
+Which of the following comparisons will yield false?
 Answered Incorrectly
 
 You had to select 3 option(s)
-Boolean.parseBoolean(" true ")
-This will return false because of the extra spaces at the ends. Remember that case of the argment is ignored but spaces are not.
-Boolean.parseBoolean("true")
-Although this will return true but it is still not a valid answer because parseBoolean returns a primitive and not a Boolean wrapper object.
-Boolean.valueOf(true)
-Boolean.valueOf("trUE")
-Boolean.TRUE
+Boolean.parseBoolean("true") == true
+Boolean.parseBoolean("TrUe") == new Boolean(null)
+This will yield false because parseBoolean("TrUe") will return true and new Boolean(null) will return a Boolean wrapper object containing false.
+new Boolean("TrUe") == new Boolean(true)
+Even though both the sides have a Boolean wrapper containing true, the expression will yield false because they point to two different Boolean wrapper objects.
+new Boolean() == false
+This will not compile because Boolean class does not have a no-args constructor.
+new Boolean("true") == Boolean.TRUE
+Even though both the sides have a Boolean wrapper containing true, the expression will yield false because they point to two different Boolean wrapper objects.
+new Boolean("no") == false
+Any string other than "true" (ignoring case) will produce a Boolean containing false. Therefore, this expression will yield true.
 
 
 You need to remember the following points about Boolean:
